@@ -152,7 +152,7 @@ public class RadioTest {
     public void shouldIncreaseStation() {
         Radio radio = new Radio();
 
-        for (int i = 0; i <8; i++) { //+8
+        for (int i = 0; i < 8; i++) { //+8
             radio.increaseStation();
         }
 
@@ -166,7 +166,7 @@ public class RadioTest {
     public void shouldIncreaseStationToLimit() {
         Radio radio = new Radio();
 
-        for (int i = 0; i <9; i++) { //+9
+        for (int i = 0; i < 9; i++) { //+9
             radio.increaseStation();
         }
 
@@ -180,7 +180,7 @@ public class RadioTest {
     public void shouldIncreaseStationOverLimitToZero() {
         Radio radio = new Radio();
 
-        for (int i = 0; i <10; i++) { //+10
+        for (int i = 0; i < 10; i++) { //+10
             radio.increaseStation();
         }
 
@@ -194,7 +194,7 @@ public class RadioTest {
     public void shouldDecreaseStation() {
         Radio radio = new Radio();
 
-        for (int i = 0; i <2; i++) { //+2
+        for (int i = 0; i < 2; i++) { //+2
             radio.increaseStation();
         }
         radio.decreaseStation(); //-1
